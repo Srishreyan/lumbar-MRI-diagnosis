@@ -1,0 +1,30 @@
+============================================================
+SPIDER dataset summary
+============================================================
+Patients total        : 218
+Series total          : 447
+  train : 152 patients, 308 series, 1054 disc levels
+  val   :  32 patients,  67 series,  220 disc levels
+  test  :  34 patients,  72 series,  246 disc levels
+------------------------------------------------------------
+Sanity checks
+  Series without image file on disk : 0
+  Series without mask file on disk  : 0
+  Image file format detected        : .mha
+  Graded patients present in overview : 1520 / 1520
+------------------------------------------------------------
+Per-disc label distributions (rows = patient-IVD level)
+  Modic               : 0=1006, 1=4, 2=503, 3=7
+  UP endplate         : 0=906, 1=614
+  LOW endplate        : 0=897, 1=623
+  Spondylolisthesis   : 0=1478, 1=42
+  Disc herniation     : 0=1448, 1=72
+  Disc narrowing      : 0=976, 1=544
+  Disc bulging        : 0=774, 1=746
+Pfirrmann grade distribution (severity task target)
+  Pfirrman grade : 1=286, 2=341, 3=418, 4=291, 5=184
+------------------------------------------------------------
+Series contrast coverage
+  contrast
+t2    251
+t1    196

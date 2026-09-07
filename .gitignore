@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.venv-1/
+.venv_cuda/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Large data / checkpoints (do NOT push to GitHub — use Drive/Zenodo link in README)
+crops/
+crops*.zip
+images.zip
+masks.zip
+extracted/
+*.pth
+*.ckpt
+*.safetensors
+results/
+results_improved/
+saliency_vis/
+
+# SPIDER raw zips (if any)
+SPIDER.zip
+*.mha
+
+# Word temp / backup files
+~$*.docx
+~WRL*.tmp
+*.tmp
+*.bak
+Trustworthy_Spine_MRI_Conference_Paper.docx
+Trustworthy_Spine_MRI_Conference_Paper.docx.bak
+Trustworthy_Spine_MRI_Conference_Paper_final_before_abstract_bold.docx
+Trustworthy_Spine_MRI_Conference_Paper_final_patched.docx
+Trustworthy_Spine_MRI_Conference_Paper_final_pre_cam.docx
+Trustworthy_Spine_MRI_Conference_Paper_final_tmp.docx
+Trustworthy_Spine_MRI_Conference_Paper_final_tmp2.docx
+Trustworthy_Spine_MRI_Conference_Paper_final_user_edit.docx
+Trustworthy_Spine_MRI_Conference_Paper_fixed.docx
+Trustworthy_Spine_MRI_Conference_Paper_fixed.pdf
+Trustworthy_Spine_MRI_Conference_Paper_v2.docx
+Trustworthy_Spine_MRI_Conference_Paper_v3.docx
+Trustworthy_Spine_MRI_Conference_Paper_final.docx.new
+Trustworthy_Spine_MRI_Conference_Paper_final.docx.tmp
+23MIA1088_Srishreyan_S_23MIA1081_Mohammed_Ashlab_version2.docx
+spine.docx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

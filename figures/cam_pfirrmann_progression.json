@@ -1,0 +1,43 @@
+{
+  "samples": [
+    {
+      "grade": 1,
+      "sample_id": "p107_107_t1_d0",
+      "true_pfirrmann": 1,
+      "pred_pfirrmann": 5
+    },
+    {
+      "grade": 2,
+      "sample_id": "p100_100_t1_d1",
+      "true_pfirrmann": 2,
+      "pred_pfirrmann": 3
+    },
+    {
+      "grade": 3,
+      "sample_id": "p100_100_t1_d2",
+      "true_pfirrmann": 3,
+      "pred_pfirrmann": 3
+    },
+    {
+      "grade": 4,
+      "sample_id": "p101_101_t1_d1",
+      "true_pfirrmann": 4,
+      "pred_pfirrmann": 4
+    },
+    {
+      "grade": 5,
+      "sample_id": "p107_107_t1_d2",
+      "true_pfirrmann": 5,
+      "pred_pfirrmann": 5
+    }
+  ],
+  "methods": [
+    "gradcam",
+    "gradcampp",
+    "eigencam",
+    "scorecam"
+  ],
+  "ckpt": "C:\\Users\\srish\\SPIDER\\ckpt_evit_b1.pth",
+  "target_conv": "model.encoder.stages[-1]",
+  "note": "target_index = 7 + pred_pfirrmann (predicted grade)"
+}
