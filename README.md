@@ -1,4 +1,4 @@
-# When AI Learns to Read a Spine
+# A Multitask framework for MRI Diagnosis
 
 <p align="center">
   <img src="figures/architecture_diagram.png" width="100%" alt="Architecture: EfficientViT-b1 + CBAM + CORN multi-task framework">
