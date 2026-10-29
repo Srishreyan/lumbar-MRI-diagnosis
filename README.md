@@ -45,19 +45,6 @@ EfficientViT-b1 (7.58M) + CBAM → `[B,256,7,7]` → dual heads: 7× sigmoid (BC
 
 ---
 
-## Paper Updates & Fixes (2026-10-29)
-
-The paper draft (`nosql_paper_draft-1.docx` and `.pdf`) was thoroughly reviewed and updated to correct factual claims, remove unsupported assertions, and improve rigor:
-
-- **Discriminative Performance:** Corrected EfficientViT-b1 binary wins from "5 of 7" to **6 of 7** vs MobileViT-S.
-- **ResNet-50 Comparison:** Fixed the false claim "without sacrificing pooled binary accuracy" — ResNet-50 achieves higher pooled binary accuracy (70.8% vs. 67.9%), which is now honestly reported alongside EfficientViT's 3.1× smaller size and higher Pfirrmann accuracy (44.1% vs. 37.1%).
-- **CBAM Ablation:** Clarified that the ablation compares **two independently trained models** (with and without CBAM) rather than a test-time switch.
-- **Ordinal Regression (CORN):** Removed unsupported claims that CORN reduces distant Pfirrmann errors (since softmax variance was never measured); reframed as a modest top-1 gain (44.1% vs. 41.2%).
-- **Uncertainty & Variance:** Refined the overly broad claim that variance is "universally anti-predictive" by explicitly noting that deep-ensemble disc bulging (0.515) and disc narrowing (0.465) error-detection AUCs are above random.
-- **Missing Figure 13 Added:** Injected the TTA reliability diagram (Pfirrmann, ECE = 0.080) into the document and referenced it in the uncertainty section.
-- **Style & Cleanups:** Removed dataset leaks ("more students are in grades 2-4"), swapped parameter counts for ImageNet accuracy figures, added missing [27] CBAM citation, and cleaned up figure captions.
-
----
 
 ## Results
 
